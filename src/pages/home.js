@@ -11,14 +11,11 @@ import fondo from '../assets/img/fondo.jpg'
 
 const Transparente = styled.div `
   background: rgba(255, 255, 255, 0.4);
-  
   background-image: url("${fondo}");
   background-position: center;
   background-attachment: fixed; 
   background-repeat: no-repeat; 
-  background-size: cover;
- 
-  
+  background-size: cover;  
 `
 const FondoFoto = styled.div `
   background: rgba(255, 255, 255, 0.4);
@@ -28,7 +25,6 @@ const FondoFoto = styled.div `
   background-repeat: no-repeat; 
   background-size: cover;
 `
-
 const Shop = styled.div `
   background:white;
 `
@@ -37,8 +33,8 @@ const Shop = styled.div `
 const Home = () => {
 
   return (
+    
     <Transparente >
-      
       <ImagenHome />
       <Shop id="my-store-29380059" />
       <Marcas />
@@ -47,8 +43,7 @@ const Home = () => {
         <Noticias />
         <CuerpoHome />
       </FondoFoto>
-      <Formulario />
-      
+      <Formulario />  
     </Transparente>
   )
 }

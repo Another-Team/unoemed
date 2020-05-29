@@ -22,12 +22,11 @@ const StyledFooter = styled.footer`
     font-size: 9.5px;
     font-family: 'Archivo', sans-serif;
     letter-spacing: 0.5pt;
-    
+    text-align: center;
   }
   ul li a {
     color: inherit;
     text-decoration: none;
-      
   }
   ul li a:hover {
     color: #b30000;
@@ -35,7 +34,7 @@ const StyledFooter = styled.footer`
   .copyright {
     font-size: 8px;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
   }
   .icon {
     display: none;
@@ -48,7 +47,7 @@ const StyledFooter = styled.footer`
     font-size:10px;
   }
 
-  @media (min-width: 650px) {
+  @media (min-width: 630px) {
     padding: 10vh;
     flex-direction: row;
 
